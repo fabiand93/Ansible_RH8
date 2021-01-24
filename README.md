@@ -72,4 +72,4 @@ BSD
 
 ## Author Information
 
-Jérémy Bertozzi <jeremy.bertozzi@gmail.com>
+Fabian Diaz <nestorfdvar@gmail.com>
