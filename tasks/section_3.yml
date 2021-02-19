@@ -333,6 +333,8 @@
   yum:
     name: "{{ cis_rhel8_firewall_package }}"
     state: installed
+  when:
+      - cis_rhel8_3_4_1_1
   tags:
     - scored
     - level1

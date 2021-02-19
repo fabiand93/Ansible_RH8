@@ -34,23 +34,23 @@ cis_rhel8_1_2_2: true
 cis_rhel8_1_2_3: true
 cis_rhel8_1_2_4: true
 cis_rhel8_1_2_5: true
-cis_rhel8_1_3_1: true
+cis_rhel8_1_3_1: true # test
 cis_rhel8_1_3_2: true
 cis_rhel8_1_3_3: true
-cis_rhel8_1_4_1: true
+cis_rhel8_1_4_1: true # test true
 cis_rhel8_1_4_2: true
 cis_rhel8_1_5_1: true
 cis_rhel8_1_5_2: true
 cis_rhel8_1_5_3: true
 cis_rhel8_1_6_1: true
 cis_rhel8_1_6_2: true
-cis_rhel8_1_7_1_1: true
+cis_rhel8_1_7_1_1: true # test true
 cis_rhel8_1_7_1_2: true
 cis_rhel8_1_7_1_3: true
 cis_rhel8_1_7_1_4: true
 cis_rhel8_1_7_1_5: true
-cis_rhel8_1_7_1_6: true
-cis_rhel8_1_7_1_7: true
+cis_rhel8_1_7_1_6: true #true
+cis_rhel8_1_7_1_7: true #true
 cis_rhel8_1_8_1_1: true
 cis_rhel8_1_8_1_2: true
 cis_rhel8_1_8_1_3: true
@@ -58,7 +58,7 @@ cis_rhel8_1_8_1_4: true
 cis_rhel8_1_8_1_5: true
 cis_rhel8_1_8_1_6: true
 cis_rhel8_1_8_2: true
-cis_rhel8_1_9: true
+cis_rhel8_1_9: false #true
 cis_rhel8_1_10: true
 cis_rhel8_1_11: true
 
@@ -101,8 +101,8 @@ cis_rhel8_crypto_policy: FUTURE
 
 # section 2: Services
 cis_rhel8_section2: true
-cis_rhel8_2_1_1: true
-cis_rhel8_2_2_1_1: true
+cis_rhel8_2_1_1: false #true
+cis_rhel8_2_2_1_1: false #true
 cis_rhel8_2_2_1_2: true
 cis_rhel8_2_2_2: true
 cis_rhel8_2_2_3: true
@@ -121,9 +121,9 @@ cis_rhel8_2_2_15: true
 cis_rhel8_2_2_16: true
 cis_rhel8_2_2_17: true
 cis_rhel8_2_2_18: true
-cis_rhel8_2_3_1: true
-cis_rhel8_2_3_2: true
-cis_rhel8_2_3_3: true
+cis_rhel8_2_3_1: false #true
+cis_rhel8_2_3_2: false #true
+cis_rhel8_2_3_3: false #true
 
 # 2.2.1.2
 cis_rhel8_chrony_servers:
@@ -149,6 +149,7 @@ cis_rhel8_3_3_1: true
 cis_rhel8_3_3_2: true
 cis_rhel8_3_3_3: true
 cis_rhel8_3_3_4: true
+cis_rhel8_3_4_1_1: false #test true
 cis_rhel8_3_4_2_1: true
 cis_rhel8_3_4_2_2: true
 cis_rhel8_3_4_2_3: true
@@ -179,7 +180,7 @@ cis_rhel8_firewall_default_zone: public
 
 # section 4: Logging and Auditing
 cis_rhel8_section4: true
-cis_rhel8_4_1_1_1: true
+cis_rhel8_4_1_1_1: false #true
 cis_rhel8_4_1_1_2: true
 cis_rhel8_4_1_1_3: true
 cis_rhel8_4_1_1_4: true
@@ -201,7 +202,7 @@ cis_rhel8_4_1_14: true
 cis_rhel8_4_1_15: true
 cis_rhel8_4_1_16: true
 cis_rhel8_4_1_17: true
-cis_rhel8_4_2_1_1: true
+cis_rhel8_4_2_1_1: false #true
 cis_rhel8_4_2_1_2: true
 cis_rhel8_4_2_1_3: true
 cis_rhel8_4_2_1_4: true
@@ -273,8 +274,8 @@ cis_rhel8_5_6: true
 cis_rhel8_5_7: true
 
 # 5.2.2
-#cis_rhel8_sshd:
-#  allowusers:
+cis_rhel8_sshd:
+  allowusers: root oracle ndiaz14
 #  allowgroups:
 #  denyusers:
 #  denygroups:

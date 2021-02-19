@@ -224,6 +224,8 @@
   yum:
     name: rsyslog
     state: installed
+  when:
+    - cis_rhel8_4_2_1_1
   tags:
     - scored
     - level1
